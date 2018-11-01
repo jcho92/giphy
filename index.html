@@ -1,0 +1,55 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Giphy</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="heading">
+        <h1>THIS IS A GIPHY GENERATOR!</h1>
+        <p>add your categories and we'll fetch the gif for you!</p>
+    </div>
+    <div id="first-row">
+        <div id="first-row-left">
+            <p>enter your own category here</p>
+            <form>
+                <input id="categoryInput" type="text">
+                <input id="addCategory" type="submit" value="submit">
+
+            </form>
+            <button id="clear" onclick="clearAll()">clear all</button>
+
+        </div>
+        <div id="first-row-right">
+            <p>click these buttons to generate your category gifs<p>
+                    <div id="button-list"> </div>
+        </div>
+    </div>
+    <div id="gifplace">
+
+        <table id="gifTable">
+        
+        </table>
+        <Table id="favTable">
+            <tr>
+                <th>your Favourite gifs</th>
+            </tr>
+            
+        </Table>
+    </div>
+
+    <script src="main.js">
+    </script>
+</body>
+
+</html>
