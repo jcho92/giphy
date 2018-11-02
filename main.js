@@ -5,7 +5,7 @@ var categoryList = ['south Park', 'rick and morty'];
 function gifDisplay() {
     var data = $(this).attr("data-category");
     console.log(data)
-    var QueryURL = "http://api.giphy.com/v1/gifs/search?q=" + data + "&api_key=sEePOFOcGEeXMEC6uZsruN7hUxBnFcdh";
+    var QueryURL = "https://api.giphy.com/v1/gifs/search?q=" + data + "&api_key=sEePOFOcGEeXMEC6uZsruN7hUxBnFcdh";
     // generates the igfs based on the url 
     $.ajax({
         url: QueryURL,
