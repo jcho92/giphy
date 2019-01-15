@@ -41,7 +41,7 @@ h1{
     margin-left: 300px; 
 }
 .gifimage{
-    width: 400px;
+    width: 300px;
 }
 .ratingTD{
     width: 100px;
@@ -50,8 +50,8 @@ h1{
 }
 #favTable{
     width: 420px;
-    float: right;
-    margin-right: 300px;
+    float: left;
+    margin: 0 auto 0 40px;
 }
 td{
     padding:10px;
@@ -118,8 +118,8 @@ button.favouriteGif{
     }
     #favTable{
         width: 420px;
-        float: right;
-        margin-right:40px;
+        float: left;
+        margin: 0 auto 0 40px;
     }
     #gifTable{
         width: 630px;
